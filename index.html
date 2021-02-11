@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página peruana de SPA">
+    <meta name="robots" content="index,follow">
+    <title>SPA</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Potta+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styless.css">
+
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <!-- la unica forma de que funcione el smooth scroll -->
+    <script src="js/smoothscroll.js"></script>
+</head>
+<body>
+    <header class="header">
+        <nav id="myNav" class="header__nav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <ul class="ul">
+                <li class="ul__li"><a href="#section1" class="tab active-tab">Tú Chai</a></li>
+                <li class="ul__li"><a href="#section2" class="tab">Servicios</a></li>
+            </ul>
+            <div class="indicator">
+                <div class="indicator-line"></div>
+            </div>
+        </nav>
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+  
+    </header>
+    <main class="main">
+        <section  class="main__section--bienvenida">
+            <div class="sliding-background"></div>
+            <div class="texto">
+              <h1 class="texto__h1">Tú Chai</h1>
+              
+            </div>
+
+            
+        </section>
+        <section id="section1">
+            <div class="section1__container">
+                <h1>Tu Chai</h1>
+                <hr>
+                <div class="section1__container--title">
+                    <h1>La magia del sanar</h1>
+                </div>
+                
+                <div class="section1__container-all">
+                    <div class="section1__container--subtitles">
+                        <p>Masajes Terapeuticos y Sanación alternativa</p>
+                        <p class="section1__container--subtitles--p2">CUERPO - MENTE - ALMA</p>
+    
+                    </div>
+                    <div class="section1__containter--content">
+                        <p>
+                            Te damos la oportunidad de disfrutar de nuestros servicios de masaje corporal, faciales y cuidados restaurativos para la piel.
+    
+                            Nuestros tratamientos incorporan remedios antiguos a base de hierbas medicinales y hierbas aromaticas para restaurar y reavivar la belleza interior y exterior del cuerpo.”
+                            
+                            “Junto con antiguos elixires también introducimos remedios modernos para la relajación y desintoxicación, creando tratamientos innovadores y terapéuticos para restaurar la paz interior y el bienestar total.” 
+                        </p>
+                    </div>
+               
+
+
+                </div>
+              
+
+            </div>
+           
+            
+        </section>
+        <section id="section2">
+
+        </section>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <script>
+        function openNav() {
+          document.getElementById("myNav").style.width = "100%";
+        }
+        
+        function closeNav() {
+          document.getElementById("myNav").style.width = "0%";
+        }
+    </script>
+    <script src="js/script.js" type=""></script>
+</body>
+</html>
