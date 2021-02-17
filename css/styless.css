@@ -363,30 +363,7 @@ a {
     margin: 0 !important;
   }
 }
-@media (max-width: 380px) {
-  .section1__container--subtitles {
-    margin: 0 auto;
-    display: block;
-    width: 50%;
-  }
-  .section1__container--subtitles p {
-    font-size: 0.4em;
-  }
-  .section1__container--subtitles--p2 {
-    width: 100%;
-    font-weight: bolder !important;
-    font-size: 0.333em !important;
-  }
-  .section1__containter--content {
-    margin-top: 1.5rem;
-    float: none;
-    display: block;
-    width: 100%;
-  }
-  .section1__containter--content p {
-    font-size: 0.9rem !important;
-  }
-}
+
 
 @media (max-width: 360px) {
   .section1__container--subtitles {
@@ -410,30 +387,6 @@ a {
   }
   .section1__containter--content p {
     font-size: 1rem;
-  }
-}
-@media (max-width: 360px) {
-  .section1__container--subtitles {
-    margin: 0 auto;
-    display: block;
-    width: 50%;
-  }
-  .section1__container--subtitles p {
-    font-size: 0.7em;
-  }
-  .section1__container--subtitles--p2 {
-    width: 100%;
-    font-weight: bolder !important;
-    font-size: 0.333em !important;
-  }
-  .section1__containter--content {
-    margin-top: 1.5rem;
-    float: none;
-    display: block;
-    width: 100%;
-  }
-  .section1__containter--content p {
-    font-size: 0.7rem !important;
   }
 }
 @media (max-width: 540px) {
@@ -576,6 +529,40 @@ a {
   }
 
 
+}
+@media screen and (max-width: 380px) {
+  .section1__container--subtitles {
+    margin: 0 auto;
+    display: block;
+    width: 50%;
+  }
+  .section1__container--subtitles p {
+    font-size: 0.4em;
+  }
+  .section1__container--subtitles--p2 {
+    width: 100%;
+    font-weight: bolder !important;
+    font-size: 0.333em !important;
+  }
+  .section1__containter--content {
+    margin-top: 1.5rem;
+    float: none;
+    display: block;
+    width: 100%;
+  }
+  .section1__containter--content p {
+    font-size: 0.9rem ;
+  }
+  .section2__text p{
+    line-height: 1.47059;
+    color: #fefefe;
+    font-size: 0.9rem ;
+  }
+}
+@media (max-width: 320px) {
+  .section1__containter--content p {
+    font-size: 0.7rem;
+  }
 }
 
 #section3{
