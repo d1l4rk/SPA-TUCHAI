@@ -60,7 +60,7 @@ a {
   width: 50%;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 1001px) {
   .header span,
   .closebtn {
     display: none;
@@ -79,7 +79,7 @@ a {
     display: inline-block;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   .section1__container p {
     font-size: 2.4vw;
   }
@@ -556,7 +556,7 @@ a {
   .section2__text p{
     line-height: 1.47059;
     color: #fefefe;
-    font-size: 0.9rem ;
+    font-size: 0.9rem;
   }
 }
 @media (max-width: 320px) {
