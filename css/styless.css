@@ -297,7 +297,6 @@ a {
     font-size: 1.2rem;
   }
 }
-
 @media (max-width: 280px) {
   .section1__container--subtitles {
     margin: 0 auto;
@@ -389,6 +388,11 @@ a {
   .section1__containter--content p {
     font-size: 1rem;
   }
+  .section2__text p{
+    line-height: 1.47059;
+    color: #fefefe;
+    font-size: 0.9rem ;
+  }
 }
 @media (max-width: 540px) {
   .section1__container--subtitles {
@@ -413,6 +417,7 @@ a {
   .section1__containter--content p {
     font-size: 1.2rem;
   }
+
 }
 
 
@@ -563,6 +568,13 @@ a {
 @media (max-width: 320px) {
   .section1__containter--content p {
     font-size: 0.7rem;
+  }
+}
+@media (max-width: 280px) {
+  .section2__text p{
+    line-height: 1.47059;
+    color: #fefefe;
+    font-size: 0.8rem;
   }
 }
 
