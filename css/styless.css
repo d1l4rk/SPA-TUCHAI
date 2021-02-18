@@ -18,6 +18,7 @@ main {
 }
 a {
   text-decoration: none;
+  cursor: pointer;
 }
 .main__section--bienvenida {
   width: 100%;

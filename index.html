@@ -17,7 +17,7 @@
 
   <script src="./js/jquery-3.5.1.min.js"></script>
   <!-- la unica forma de que funcione el smooth scroll -->
-  <script src="js/smoothscroll.js"></script>
+  <!-- <script src="js/smoothscroll.js"></script> -->
   <!-- Swiper paginator slide -->
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 </head>
@@ -28,11 +28,14 @@
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
       <ul class="ul">
         <li class="ul__li">
-          <a href="#section1" class="tab active-tab">Tú Chai</a>
+          
+          <a  data-attr-scroll="#section1" class="tab active-tab">Tú Chai</a>
         </li>
-        <li class="ul__li"><a href="#section2" class="tab">Servicios</a></li>
         <li class="ul__li">
-          <a href="#section3" class="tab">Sobre Tu Chai</a>
+          <a  data-attr-scroll="#section2" class="tab">Servicios</a>
+        </li>
+        <li class="ul__li">
+          <a  data-attr-scroll="#section3" class="tab">Sobre Tu Chai</a>
         </li>
       </ul>
       <div class="indicator">
@@ -264,12 +267,12 @@
     </section>
 
     <section id="section3">
-        <div class="section3__practice"></div>
-        <div class="section3__practice"></div>
+      <div class="section3__practice"></div>
+      <div class="section3__practice"></div>
 
-        <div class="section3__practice klok"></div>
+      <div class="section3__practice klok"></div>
 
-    
+
 
 
 
