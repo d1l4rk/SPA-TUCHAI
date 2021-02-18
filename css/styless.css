@@ -532,20 +532,20 @@ a {
    .section2__text p{
     font-size: 2em;
   }
+  .section2__text--inka{
+    font-size: 1.2rem !important;
+  }
 }
 
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
 @media screen and (max-width: 600px) {
-    .section2__text p{
-    font-size: 30px;
+  .section2__text--inka{
+    font-size: 0.95rem !important;
   }
 }
 
 
 @media screen and (max-width: 1600px){
-  .section2__text--inka{
-    font-size: 1.2rem !important;
-  }
   .section2__text p{
     line-height: 1.47059;
     color: #fefefe;
@@ -594,9 +594,6 @@ a {
   .section2__text--kobido,.section2__text--pies{
     font-size: 0.6rem !important;
   }
-  
-
-
 }
 
 @media (max-width: 320px) {
